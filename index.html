@@ -1,7 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Page.</p>
-  </body>
-</html>
+---
+layout: default
+title: Jimmy' Page
+---
+
+<h2>{{ page.title }}</h2>
+<p>Recent Article</p>
+<u1>
+	{% for post in site.posts %}
+		<li>{{ post.date | date_to_string }} <a href="{{ site.baseur }}{{post.url }}">{{ post.title }}></a><li>
+	{% endfor %}
+ </u1>
+
