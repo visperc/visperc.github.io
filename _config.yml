@@ -1,1 +1,17 @@
-baseurl: /visperc.github.io
+name: Jimmy Chen
+author: Jimmy Chen
+markdown: redcarpet
+pygments: true
+baseurl: /
+url: 
+description: Power of knowledge
+github: http://www.github.com/visperc
+twitter: http://www.twitter.com/visperc
+facebook: http://www.facebook.com
+linkedin: http://www.linkedin.com
+email: visperc@gmail.com
+location: Shanghai China
+disqus: diqus-username
+
+##Make sure to edit the above fields, especially for disqus. 
+
