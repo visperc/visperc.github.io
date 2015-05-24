@@ -1,6 +1,0 @@
-Visperc
-============
-
-Jimmy's blog
-
-
